@@ -15,3 +15,9 @@ replace README.md? [y]es, [n]o, [A]ll, [N]one, [r]ename: y
 ```
 
 # Q3 
+## Write a command to output the line with the largest genome.
+```bash [alshammm@login509-02-l data_summary]$ tail -n +2 data_summary_new.tsv | sort -t$'\t' -k2 -n | tail -n 1```
+
+## Write a command to output the line with the smallest genome.
+```bash [alshammm@login509-02-l data_summary]$ tail -n +2 data_summary_new.tsv | sort -t$'\t' -k2 -n | head -n 1```
+
