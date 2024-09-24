@@ -25,3 +25,17 @@ replace README.md? [y]es, [n]o, [A]ll, [N]one, [r]ename: y
 [alshammm@login509-02-l data_summary]$ tail -n +2 data_summary_new.tsv | sort -t$'\t' -k2 -n | head -n 1
 ```
 ![Solution](https://github.com/manalalshamrani/BioE230/blob/main/Screen%20Shot%202024-09-24%20at%204.33.23%20PM.png?raw=true)
+
+# Q4
+## Find the number of genomes that contain at least two "c" in the species name.
+
+```bash
+[alshammm@login509-02-l data_summary]$ tail -n +2 data_summary_new.tsv | cut -f 1 | grep -i "c.*c" | sort | uniq | wc -l
+```
+### answer: 7
+## Find the number of genomes that contain at least two "c" but do not contain the word "coccus."
+
+```bash
+[alshammm@login509-02-l data_summary]$ tail -n +2 data_summary_new.tsv | cut -f 1 | grep -i "c.*c" | grep -vi "coccus" | sort | uniq | wc -l
+```
+### answer: 5
