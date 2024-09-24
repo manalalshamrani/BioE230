@@ -9,7 +9,6 @@ scp ncbi_dataset.zip alshammm@ilogin.ibex.kaust.edu.sa:/home/alshammm
 
 ## Uncompress the zip file on IBEX.
 '''bash unzip ncbi_dataset.zip
-Archive:  ncbi_dataset.zip
-replace README.md? [y]es, [n]o, [A]ll, [N]one, [r]ename: y '''
+'''
 
 # Q3 
