@@ -2,9 +2,9 @@
 
 # Q2
 ## Copy the downloaded files to your home directory on IBEX. 
-'''bash
-manalalshamrani@Manals-MacBook-Pro Downloads % scp ncbi_dataset.zip alshammm@ilogin.ibex.kaust.edu.sa:/home/alshammm
-'''
+```bash
+scp ncbi_dataset.zip alshammm@ilogin.ibex.kaust.edu.sa:/home/alshammm
+```
 
 
 ## Uncompress the zip file on IBEX.
