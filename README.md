@@ -49,3 +49,4 @@ replace README.md? [y]es, [n]o, [A]ll, [N]one, [r]ename: y
 ```
 
 ### answer: 6
+![Output](https://github.com/manalalshamrani/BioE230/blob/main/Screen%20Shot%202024-09-24%20at%205.22.21%20PM.png?raw=true)
