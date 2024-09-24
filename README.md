@@ -39,3 +39,13 @@ replace README.md? [y]es, [n]o, [A]ll, [N]one, [r]ename: y
 [alshammm@login509-02-l data_summary]$ tail -n +2 data_summary_new.tsv | cut -f 1 | grep -i "c.*c" | grep -vi "coccus" | sort | uniq | wc -l
 ```
 ### answer: 5
+
+# Q5
+
+## Write a command to output how many genome files (FASTA) are larger than 3 megabytes.
+
+```bash
+[alshammm@login509-02-l data]$ find . -name "*.fna" -size +3M | wc -l
+```
+
+### answer: 6
